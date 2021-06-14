@@ -1,0 +1,113 @@
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+
+       
+        *, *::before, *::after {
+            box-sizing: inherit;
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+        .contenedor {
+            max-width: 1200px;
+            margin: 0px auto;
+            font-size: 18px;
+        }
+
+        body {
+            background-color: #c7d8f2;
+            font-family: 'Lato', sans-serif;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        
+
+        .lista {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .fecha {
+            flex: 0 0 20%;
+        }
+        .lugar {
+            flex: 0 0 80%;
+        }
+
+        #contenido-general {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        #sidebar {
+            flex: 0 0 20%;
+            background-color: #3a091a;
+            padding: 30px;
+            color: #FFFFFF;
+            font-size: 16px;
+            box-shadow: 0px 2px 10px #464646;
+        }
+
+        #descripcion, #hobbies, #habilidades {
+            margin-top: 50px;
+        }
+
+        #hobbies ul, #habilidades ul {
+            padding-left: 30px;
+            margin-top: 10px;
+        }
+
+        #hobbies ul li, #habilidades ul li {
+            padding: 10px;
+        }
+
+        #foto {
+            width: 300px;
+        }
+
+        #titulo {
+            background-color: #58595B;
+            padding: 30px;
+            color: #FFFFFF;
+        }
+
+        #titulo h1 {
+            font-size: 40px;
+            margin: 0px;
+        }
+
+        #contenido-principal {
+            flex: 0 0 calc(75% - 80px);
+            margin-top: 30px;
+        }
+
+        #contenido-principal h2 {
+            text-align: center;
+            margin-top: 0px;
+        }
+
+        #educacion, #experiencia-laboral, #proposito {
+            background-color: #f3f3f3;
+            padding: 30px;
+            color: #464646;
+            box-shadow: 0px 2px 10px #464646;
+            margin-top: 30px;
+        }
+
+        #experiencia-laboral h4 {
+            margin-bottom: 0px;
+            margin-top: 16px;
+        }
+
+        #educacion ul li {
+            margin: 30px 0px;
+        }
