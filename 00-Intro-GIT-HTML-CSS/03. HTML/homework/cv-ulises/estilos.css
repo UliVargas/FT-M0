@@ -46,7 +46,6 @@
             display: flex;
             justify-content: space-between;
             margin-top: 30px;
-            margin-bottom: 30px;;
         }
 
         #sidebar {
@@ -104,9 +103,9 @@
             margin-top: 30px;
         }
 
-        #experiencia-laboral h4 {
+        #experiencia-laboral h4, #educacion h4 {
             margin-bottom: 0px;
-            margin-top: 16px;
+            margin-top: 18px;
         }
 
         #educacion ul li {
