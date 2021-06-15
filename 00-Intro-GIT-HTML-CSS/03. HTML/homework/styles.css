@@ -23,11 +23,6 @@ body {
     align-items: center;
 }
 
-.divClass {
-    display: flex;
-    justify-content: center;
-}
-
 /* Segundo Div */
 
 #spanId {
